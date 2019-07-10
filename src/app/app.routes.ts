@@ -5,11 +5,13 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { PageNotFoundComponentComponent } from './component/page-not-found-component/page-not-found-component.component';
+import { HeroeComponent } from './components/heroe/heroe.component';
 
 const ROUTES: Routes = [
     { path: 'home', component: HomeComponent },
     { path: 'about', component: AboutComponent },
     { path: 'heroes', component: HeroesComponent },
+    { path: 'heroe/:id', component: HeroeComponent },
     { path: '**', component: PageNotFoundComponentComponent }
 ];
 
