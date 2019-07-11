@@ -10,17 +10,17 @@ import { Router } from '@angular/router';
 export class HeroesComponent implements OnInit {
 
   private _heroesService = new HeroesService();
-  heroes:Heroe[];
+  heroes: Heroe[];
 
-  constructor( private _router:Router ) { }
+  constructor(private _router: Router) { }
 
   ngOnInit() {
     this.heroes = this._heroesService.getHeroes();
-    console.log("ngOnInit: ", this.heroes );
+    console.log("ngOnInit: ", this.heroes);
 
   }
 
-  verHeroe(idx:number){
+  verHeroe(idx: number) {
     this._router.navigate(['/heroe', idx]);
 
   }
