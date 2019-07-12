@@ -16,6 +16,7 @@ import { PageNotFoundComponentComponent } from './component/page-not-found-compo
 //routes
 import { FeatureRoutingModule } from './app.routes';
 import { HeroeComponent } from './components/heroe/heroe.component';
+import { BuscarheroeComponent } from './components/buscarheroe/buscarheroe.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HeroeComponent } from './components/heroe/heroe.component';
     AboutComponent,
     HeroesComponent,
     PageNotFoundComponentComponent,
-    HeroeComponent
+    HeroeComponent,
+    BuscarheroeComponent
   ],
   imports: [
     BrowserModule,
