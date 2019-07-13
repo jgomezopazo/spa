@@ -17,6 +17,7 @@ import { PageNotFoundComponentComponent } from './component/page-not-found-compo
 import { FeatureRoutingModule } from './app.routes';
 import { HeroeComponent } from './components/heroe/heroe.component';
 import { BuscarheroeComponent } from './components/buscarheroe/buscarheroe.component';
+import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { BuscarheroeComponent } from './components/buscarheroe/buscarheroe.compo
     HeroesComponent,
     PageNotFoundComponentComponent,
     HeroeComponent,
-    BuscarheroeComponent
+    BuscarheroeComponent,
+    HeroeTarjetaComponent
   ],
   imports: [
     BrowserModule,
